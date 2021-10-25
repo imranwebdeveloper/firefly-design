@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38 44" width="38" height="44">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #f44336;stroke: #6dc4f2;paint-order:stroke fill markers;stroke-width: 8 } 
+	</style>
+	<g id="Slide">
+		<g id="Object2">
+			<path id="Polygon 2" class="shp0" d="M34 21.5L4 39L4 4L34 21.5Z" />
+		</g>
+	</g>
+</svg>

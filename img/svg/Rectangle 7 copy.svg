@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 55" width="17" height="55">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #f44336;stroke: #32d5ba;paint-order:stroke fill markers;stroke-width: 8 } 
+	</style>
+	<g id="Slide">
+		<g id="Object2">
+			<path id="Rectangle 7 copy" class="shp0" d="M11.33 4.91L12.67 49.89L5.67 50.09L4.33 5.11L11.33 4.91Z" />
+		</g>
+	</g>
+</svg>

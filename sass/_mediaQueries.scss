@@ -1,0 +1,128 @@
+@media (max-width: 768px) {
+  header {
+    width: 100%;
+    .top-header {
+      height: 30px;
+      .top-header-manage {
+        .social-link {
+          margin-right: 15px;
+        }
+      }
+    }
+    .main-header {
+      height: 40px;
+      .main-nav {
+        .logo {
+          a {
+            img {
+              height: 25px;
+              width: 25px;
+              margin-right: 10px;
+            }
+            p {
+              font-size: 1.2rem;
+            }
+          }
+        }
+        .header-nav {
+          ul {
+            display: none;
+          }
+          .mobile-menu {
+            display: block;
+            outline: none;
+            i {
+              font-size: 1.1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .content-heading {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    font-weight: 300;
+  }
+
+  .spacial-field {
+    height: 100%;
+
+    .our-services {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      .discription {
+        display: flex;
+        padding: 20px 0px;
+
+        .icon {
+          padding-right: 1rem;
+        }
+      }
+      .services-dis {
+        display: block;
+        text-align: center;
+
+        h1 {
+          padding-bottom: 1rem;
+          font-size: 2rem;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+  .project-info {
+    .build {
+      display: flex;
+      flex-direction: column;
+      .build-img {
+        display: none;
+      }
+      .info {
+        span {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+
+  footer {
+    padding: 2rem 0px;
+    .container {
+      .footer {
+        display: flex;
+        flex-direction: column;
+        .footer-head {
+          padding-top: 0.5rem;
+          P {
+            margin-bottom: 1.2rem;
+          }
+          ul {
+            li {
+              height: 1.7rem;
+            }
+          }
+        }
+        .logo {
+          a {
+            padding-bottom: 1rem;
+          }
+        }
+      }
+      .tittle {
+        padding-top: 1.4rem;
+        display: block;
+
+        a {
+          display: block;
+
+          margin: 0;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}

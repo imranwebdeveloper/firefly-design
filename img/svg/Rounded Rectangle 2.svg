@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 49 47" width="49" height="47">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #f44336;stroke: #ffeb3b;paint-order:stroke fill markers;stroke-width: 8 } 
+	</style>
+	<g id="Object">
+		<path id="Rounded Rectangle 2" class="shp0" d="M19.43 5.09L42.91 18.43C44.35 19.25 44.85 21.08 44.03 22.52L33.66 40.78C32.84 42.22 31.01 42.73 29.57 41.91L6.09 28.57C4.65 27.75 4.15 25.92 4.97 24.48L15.34 6.22C16.16 4.78 17.99 4.28 19.43 5.09Z" />
+	</g>
+</svg>
