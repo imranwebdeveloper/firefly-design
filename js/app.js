@@ -1,14 +1,14 @@
 $(document).ready(function () {
-  $('.counter').each(function () {
+  $(".counter").each(function () {
     $(this)
-      .prop('Counter', 0)
+      .prop("Counter", 0)
       .animate(
         {
           Counter: $(this).text(),
         },
         {
           duration: 4000,
-          easing: 'swing',
+          easing: "swing",
           step: function (now) {
             $(this).text(Math.ceil(now));
           },
@@ -16,4 +16,4 @@ $(document).ready(function () {
       );
   });
 });
-console.log('aj');
+console.log("aj");

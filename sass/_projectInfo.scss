@@ -1,43 +1,49 @@
-.project-info {
+@use "custom" as *;
+
+.pc {
+  color: #32d5ba;
+}
+.cc {
+  color: #6dc4f2;
+}
+.lc {
+  color: #ffd13c;
+}
+.hc {
+  color: #f44336;
+}
+.project_section {
+  background: rgba(8, 18, 43, 1);
+  margin: 0 auto;
   width: 100%;
+}
 
-  .align {
-    padding: 4rem;
-    background: #fafafa;
-    position: relative;
-  }
+.project {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 350px));
+  gap: 1rem;
+  justify-content: center;
+  padding: 0 1rem;
+  margin: 2rem 0;
 
-  .build {
-    display: grid;
-    grid-template-columns: repeat(2, 280px);
-    grid-template-rows: repeat(3, 150px);
+  &_info {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    .build-img {
-      position: absolute;
-      right: 100px;
-      height: 600px;
-      bottom: 0;
+    span {
+      font-size: 2rem;
+      font-weight: 250;
     }
-
-    .description {
-      grid-column: 1/3;
-    }
-    .info {
-      padding: 1.4rem;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      span {
-        font-size: 3rem;
-        font-weight: 250;
-      }
-      p {
-        text-transform: uppercase;
-      }
+    p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+      font-weight: 600;
     }
   }
 }
+
 .pc {
   color: #32d5ba;
 }

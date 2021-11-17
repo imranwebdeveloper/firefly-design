@@ -1,70 +1,44 @@
-footer {
-  padding: 2rem 0px;
-  width: 100%;
-  border-top: 1px solid #e9e9e9;
-  background-color: #fafafa;
-  .container {
-    .footer {
-      display: grid;
-      grid-template-columns: 1fr repeat(3, 200px);
-      grid-template-rows: 1fr;
+@use "custom" as *;
 
-      .footer-head {
-        padding-top: 1rem;
-        P {
-          margin-bottom: 30px;
-          text-transform: uppercase;
-        }
-        ul {
-          list-style-type: none;
-          li {
-            height: 30px;
-            a {
-              color: #303842;
-            }
-          }
-        }
-      }
-      .logo {
-        padding-right: 3rem;
-        a {
-          width: 100%;
-          display: flex;
-          align-items: center;
-          padding-bottom: 1.5rem;
-          img {
-            height: 40px;
-            height: 40px;
-          }
-          p {
-            margin: 0;
-            margin-left: 0.8rem;
-            font-size: 1.8rem;
-            color: #303842;
-            font-weight: 300;
-          }
-        }
-        p {
-          text-transform: none;
-        }
-      }
-      .header-social-link {
-        a {
-          color: #a8acb9;
-          padding: 0.7rem;
-        }
-      }
+.footer {
+  background: $navy;
+  color: white;
+}
+.footer_section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+  .footer-link {
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 768px) {
+      display: block;
     }
-    .tittle {
-      width: 100%;
-      padding-top: 1.4rem;
-      display: flex;
-      justify-content: center;
-      a {
-        color: #a8acb9;
-        margin-left: 2rem;
-        font-size: 1.2rem;
-      }
+    * a {
+      color: $gray-600;
     }
+  }
+}
+.logo-head {
+  padding: 0 1rem;
+  @media (max-width: 768px) {
+    padding: 0;
+  }
+}
+.footer-head {
+  padding: 0.5rem;
+  flex: 1;
+
+  @media (max-width: 768px) {
+    padding: 0;
+  }
+}
+.privacy {
+  width: 100%;
+  text-align: center;
+  a {
+    padding: 1rem;
+
+    color: #575d64;
   }
 }

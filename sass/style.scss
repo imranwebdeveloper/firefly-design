@@ -7,32 +7,30 @@ a:link {
   text-decoration: none;
 }
 body {
-  font-size: 0.875rem;
+  font-size: 1rem;
+  @media (max-width: 768px) {
+    font-size: 0.9rem;
+  }
 }
-
-h1 {
-  font-size: 3rem;
-}
-h2 {
-  font-size: 2rem;
-}
-h3 {
-  font-size: 1.25rem;
-}
-h4 {
-  font-size: 0.875rem;
-}
-
 .wrapper {
-  max-width: 1920px;
-  font-family: roboto;
+  width: 100%;
   margin: 0 auto;
 }
-@import 'header';
-@import 'section1';
-@import 'patnerInfo';
-@import 'speacialServices';
-@import 'projectInfo';
-@import '_contactUs';
-@import '_footer';
-@import '_mediaQueries';
+ul {
+  list-style-type: none;
+}
+@import "custom";
+@import "header";
+@import "heroSection";
+@import "patnerInfo";
+@import "speacialServices";
+@import "projectInfo";
+@import "contactUs";
+@import "footer";
+@import "mediaQueries";
+
+// components
+@import "./components/sectionPadding";
+@import "./components/logo";
+@import "./components/heading";
+@import "./components/button";

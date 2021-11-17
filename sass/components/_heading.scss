@@ -1,0 +1,18 @@
+@use "../custom" as *;
+
+.heading {
+  font-size: 2.5rem;
+
+  color: $gray-800;
+  font-weight: 600;
+  @media (max-width: 768px) {
+    font-size: 1.7rem;
+  }
+}
+
+.subHeading {
+  max-width: 700px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1rem;
+}

@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 a:link {
@@ -44,11 +44,11 @@ header .top-header .top-header-manage {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 header .top-header .top-header-manage .social-link {
@@ -73,7 +73,7 @@ header .main-header {
   width: 100%;
   height: 70px;
   -webkit-box-shadow: 0px 2px 5px rgba(182, 182, 182, 0.24);
-  box-shadow: 0px 2px 5px rgba(182, 182, 182, 0.24);
+          box-shadow: 0px 2px 5px rgba(182, 182, 182, 0.24);
 }
 
 header .main-header .main-nav {
@@ -82,11 +82,11 @@ header .main-header .main-nav {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 header .main-header .main-nav .header-nav {
@@ -95,8 +95,8 @@ header .main-header .main-nav .header-nav {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 header .main-header .main-nav .header-nav ul {
@@ -117,11 +117,11 @@ header .main-header .main-nav .header-nav ul li {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
   height: 100%;
   margin-left: 10px;
@@ -146,17 +146,10 @@ header .main-header .main-nav .header-nav .mobile-menu {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-image: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(8, 18, 43, 0.8))
-    ),
-    url("../img/hero.jpg");
-  background-image: linear-gradient(rgba(8, 18, 43, 0.8)),
-    url("../img/hero.jpg");
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(8, 18, 43, 0.8))), url("../img/hero.jpg");
+  background-image: linear-gradient(rgba(8, 18, 43, 0.8)), url("../img/hero.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -167,8 +160,8 @@ header .main-header .main-nav .header-nav .mobile-menu {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 100%;
 }
 
@@ -199,11 +192,11 @@ header .main-header .main-nav .header-nav .mobile-menu {
   display: flex;
   gap: 1rem;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .client_logo div {
@@ -223,8 +216,8 @@ header .main-header .main-nav .header-nav .mobile-menu {
 .skill {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(300px, 1fr)) [auto-fill];
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 1rem;
 }
 
@@ -272,12 +265,12 @@ header .main-header .main-nav .header-nav .mobile-menu {
 .project {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(220px, 350px)) [auto-fill];
-  grid-template-columns: repeat(auto-fill, minmax(220px, 350px));
+  -ms-grid-columns: (minmax(220px, 350px))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(220px, 350px));
   gap: 1rem;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 0 1rem;
   margin: 2rem 0;
 }
@@ -289,14 +282,14 @@ header .main-header .main-nav .header-nav .mobile-menu {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .project_info span {
@@ -344,8 +337,8 @@ header .main-header .main-nav .header-nav .mobile-menu {
 .footer_section {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(300px, 1fr)) [auto-fit];
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .footer_section .footer-link {
@@ -353,8 +346,8 @@ header .main-header .main-nav .header-nav .mobile-menu {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 @media (max-width: 768px) {
@@ -380,8 +373,8 @@ header .main-header .main-nav .header-nav .mobile-menu {
 .footer-head {
   padding: 0.5rem;
   -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 @media (max-width: 768px) {
@@ -444,12 +437,12 @@ header .main-header .main-nav .header-nav .mobile-menu {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .spacial-field .our-services .discription {
     display: -webkit-box;
@@ -475,8 +468,8 @@ header .main-header .main-nav .header-nav .mobile-menu {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .project-info .build .build-img {
     display: none;
@@ -493,8 +486,8 @@ header .main-header .main-nav .header-nav .mobile-menu {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   footer .container .footer .footer-head {
     padding-top: 0.5rem;
@@ -528,8 +521,8 @@ header .main-header .main-nav .header-nav .mobile-menu {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .logo a {
@@ -538,8 +531,8 @@ header .main-header .main-nav .header-nav .mobile-menu {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 200px;
   color: #575d64;
 }
