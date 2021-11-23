@@ -18,6 +18,9 @@
       color: $gray-600;
     }
   }
+  @media (max-width: 768px) {
+    display: block;
+  }
 }
 .logo-head {
   padding: 0 1rem;

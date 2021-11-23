@@ -21,28 +21,34 @@
       <header>
         <!-- Top Header start-->
 
-        <div class="top-header">
-          <div class="container top-header-manage">
-            <div class="header-social-link">
-              <a href="http://fb.com" class="social-link">
-                <i class="fab fa-facebook-square"></i>
-              </a>
-              <a href="http://twitter.com" class="social-link">
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a href="https://pinterest.com/" class="social-link">
-                <i class="fab fa-pinterest-square"></i
-              ></a>
-              <a href="http://instagram.com" class="social-link">
-                <i class="fab fa-instagram"></i>
-              </a>
-              <a href="http://skype.com" class="social-link">
-                <i class="fab fa-skype"></i>
-              </a>
-            </div>
-            <div class="header-hotline">
-              <strong>Hot Line </strong>
-              <span class="contact"> +1 123 5444 588</span>
+        <div class="top-header border-bottom">
+          <div class="container">
+            <div class="row">
+              <div class="col-5 top_header_section">
+                <div class="header-social-link text-left">
+                  <a href="http://fb.com" class="social-link">
+                    <i class="fab fa-facebook-square"></i>
+                  </a>
+                  <a href="http://twitter.com" class="social-link">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="https://pinterest.com/" class="social-link">
+                    <i class="fab fa-pinterest-square"></i
+                  ></a>
+                  <a href="http://instagram.com" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="http://skype.com" class="social-link">
+                    <i class="fab fa-skype"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="col-7 top_header_section pr-1">
+                <div class="header-hotline text-right">
+                  <strong>Hot Line </strong>
+                  <span class="contact"> +1 123 5444 588</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -51,26 +57,39 @@
         <!-- Main Header start-->
 
         <div class="main-header">
-          <div class="container main-nav">
-            <div class="logo">
-              <a href="http://">
-                <img src="./img/log.png" alt="log" />
-                <p>Firefly</p>
-              </a>
+          <div class="container">
+            <div class="row">
+              <div class="navigation">
+                <div class="logo pl-1">
+                  <a href="#">
+                    <img src="./img/log.png" alt="log" />
+                    <p>Firefly</p>
+                  </a>
+                </div>
+                <nav class="navigation_menu">
+                  <div class="logo hide">
+                    <a href="#">
+                      <img src="./img/log.png" alt="log" />
+                      <p>Firefly</p>
+                    </a>
+                    <button type="button" class="btn close_menu">
+                      <i class="fas fa-times"></i>
+                    </button>
+                  </div>
+                  <ul class="navigation_items">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                  </ul>
+                </nav>
+                <button type="button" class="btn show_menu">
+                  <i class="fas fa-bars"></i>
+                </button>
+              </div>
             </div>
-            <nav class="header-nav">
-              <ul>
-                <li class="active"><a href="http://">Home</a></li>
-                <li><a href="http://">About</a></li>
-                <li><a href="http://">Services</a></li>
-                <li><a href="http://">Blog</a></li>
-                <li><a href="http://">Terms</a></li>
-                <li><a href="http://">Contact Us</a></li>
-              </ul>
-              <button type="button" class="btn mobile-menu">
-                <i class="fas fa-bars"></i>
-              </button>
-            </nav>
           </div>
         </div>
         <!-- Main Header End-->
@@ -377,6 +396,6 @@
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="./js/app.js"></script>
+    <script type="module" src="./js/app.js"></script>
   </body>
 </html>
