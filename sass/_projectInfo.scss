@@ -12,6 +12,9 @@
 .hc {
   color: #f44336;
 }
+.dc {
+  color: blue;
+}
 .project_section {
   background: rgba(8, 18, 43, 1);
   margin: 0 auto;
@@ -43,16 +46,13 @@
     }
   }
 }
-
-.pc {
-  color: #32d5ba;
-}
-.cc {
-  color: #6dc4f2;
-}
-.lc {
-  color: #ffd13c;
-}
-.hc {
-  color: #f44336;
+.project_img {
+  position: absolute;
+  top: 0;
+  right: -0;
+  height: 100%;
+  // z-index: 11;
+  @media (max-width: 768px) {
+    display: none;
+  }
 }
